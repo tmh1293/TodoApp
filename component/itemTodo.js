@@ -43,7 +43,7 @@ class ItemTodo {
 
     handleDelete = () => {
         this.rvmTask(this.item)
-        this.$li.remove();
+        this.$container.remove();
     }
 
     render() {
